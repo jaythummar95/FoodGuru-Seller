@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="m3d-ac-JGj">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Q76-eb-gQe">
+            <objects>
+                <viewController id="m3d-ac-JGj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ipw-OU-FU4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="vqE-31-ecI">
+                                <rect key="frame" x="0.0" y="647" width="375" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="foodguru" translatesAutoresizingMaskIntoConstraints="NO" id="ooo-8N-gee">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fhu-ZN-wEn"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vqE-31-ecI" firstAttribute="leading" secondItem="fhu-ZN-wEn" secondAttribute="leading" symbolic="YES" id="0d8-f9-hE6"/>
+                            <constraint firstItem="fhu-ZN-wEn" firstAttribute="centerX" secondItem="vqE-31-ecI" secondAttribute="centerX" id="5Dq-CC-f2t"/>
+                            <constraint firstItem="ooo-8N-gee" firstAttribute="leading" secondItem="fhu-ZN-wEn" secondAttribute="leading" id="5it-Kv-QVv"/>
+                            <constraint firstItem="ooo-8N-gee" firstAttribute="bottom" secondItem="fhu-ZN-wEn" secondAttribute="bottom" id="9Wc-DE-gyy"/>
+                            <constraint firstAttribute="bottom" secondItem="vqE-31-ecI" secondAttribute="bottom" constant="20" id="OHr-Et-X6x"/>
+                            <constraint firstItem="ooo-8N-gee" firstAttribute="top" secondItem="fhu-ZN-wEn" secondAttribute="top" id="ZqR-7M-TYZ"/>
+                            <constraint firstItem="ooo-8N-gee" firstAttribute="trailing" secondItem="fhu-ZN-wEn" secondAttribute="trailing" id="s9y-Al-eX1"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JK0-dC-iYL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="foodguru" width="1024" height="1024"/>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+module Pods_Foodguru {
+  umbrella header "Pods-Foodguru-umbrella.h"
+
+  export *
+  module * { export * }
+}
